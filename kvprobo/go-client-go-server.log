@@ -1,0 +1,82 @@
+2025-03-12T19:26:29.931-0700 [INFO]  🌐 kv-client: 📡🌍 Displaying Environment Variables:
+2025-03-12T19:26:29.931-0700 [INFO]  🌐 kv-client: 🔑 PLUGIN_MAGIC_COOKIE_KEY=BASIC_PLUGIN
+2025-03-12T19:26:29.931-0700 [INFO]  🌐 kv-client: 🔑 PLUGIN_MAGIC_COOKIE_VALUE=hello
+2025-03-12T19:26:29.931-0700 [INFO]  🌐 kv-client: 🔑 PLUGIN_MAGIC_COOKIE=hello
+2025-03-12T19:26:29.931-0700 [INFO]  🌐 kv-client: 🔑 BASIC_PLUGIN=hello
+2025-03-12T19:26:29.931-0700 [INFO]  🌐 kv-client: 🔑 PLUGIN_AUTO_MTLS=true
+2025-03-12T19:26:29.931-0700 [INFO]  🌐 kv-client: 🔑 PLUGIN_SERVER_PATH=/Users/tim/code/pyvider-rpcplugin/tests/kv/go-plugin/bin/kv-go-server
+2025-03-12T19:26:29.931-0700 [INFO]  🌐 kv-client: 🚀 starting KV client application
+2025-03-12T19:26:29.931-0700 [DEBUG] 🌐 kv-client: 🔍✅ found PLUGIN_SERVER_PATH path: path=/Users/tim/code/pyvider-rpcplugin/tests/kv/go-plugin/bin/kv-go-server
+2025-03-12T19:26:29.931-0700 [DEBUG] 🌐 kv-client: 🔍✅ verified plugin executable exists
+2025-03-12T19:26:29.931-0700 [INFO]  🌐 kv-client: 🔐 AutoMTLS is enabled. Proceeding with TLS setup...
+2025-03-12T19:26:29.931-0700 [DEBUG] 🌐 kv-client: 🔧✅ plugin client configuration complete: timeout=5s managed=true auto_mtls=true
+2025-03-12T19:26:29.931-0700 [DEBUG] 🌐 kv-client: 🔌 creating new plugin client
+2025-03-12T19:26:29.931-0700 [DEBUG] 🌐 kv-client: 🤝 attempting to establish RPC connection
+2025-03-12T19:26:29.931-0700 [INFO]  🌐 kv-client: configuring client automatic mTLS
+2025-03-12T19:26:29.934-0700 [DEBUG] 🌐 kv-client: starting plugin: path=/Users/tim/code/pyvider-rpcplugin/tests/kv/go-plugin/bin/kv-go-server args=["/Users/tim/code/pyvider-rpcplugin/tests/kv/go-plugin/bin/kv-go-server"]
+2025-03-12T19:26:29.935-0700 [DEBUG] 🌐 kv-client: plugin started: path=/Users/tim/code/pyvider-rpcplugin/tests/kv/go-plugin/bin/kv-go-server pid=55526
+2025-03-12T19:26:29.935-0700 [DEBUG] 🌐 kv-client: waiting for RPC address: plugin=/Users/tim/code/pyvider-rpcplugin/tests/kv/go-plugin/bin/kv-go-server
+2025-03-12T19:26:29.940-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.940-0700 [INFO]  📡 kv-go-server: 📡🌍 Displaying Environment Variables:
+2025-03-12T19:26:29.940-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.940-0700 [INFO]  📡 kv-go-server: 🔑 PLUGIN_MAGIC_COOKIE_KEY=BASIC_PLUGIN
+2025-03-12T19:26:29.940-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.940-0700 [INFO]  📡 kv-go-server: 🔑 PLUGIN_MAGIC_COOKIE_VALUE=hello
+2025-03-12T19:26:29.940-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.940-0700 [INFO]  📡 kv-go-server: 🔑 PLUGIN_MAGIC_COOKIE=hello
+2025-03-12T19:26:29.940-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.940-0700 [INFO]  📡 kv-go-server: 🔑 PLUGIN_AUTO_MTLS=true
+2025-03-12T19:26:29.940-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.940-0700 [INFO]  📡 kv-go-server: 🔑 PLUGIN_SERVER_PATH=/Users/tim/code/pyvider-rpcplugin/tests/kv/go-plugin/bin/kv-go-server
+2025-03-12T19:26:29.940-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.940-0700 [INFO]  📡 kv-go-server: 🔑 BASIC_PLUGIN=hello
+2025-03-12T19:26:29.940-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.940-0700 [INFO]  📡 kv-go-server: 🔑 PLUGIN_MIN_PORT=10000
+2025-03-12T19:26:29.940-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.940-0700 [INFO]  📡 kv-go-server: 🔑 PLUGIN_MAX_PORT=25000
+2025-03-12T19:26:29.940-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.940-0700 [INFO]  📡 kv-go-server: 🔑 PLUGIN_PROTOCOL_VERSIONS=1
+2025-03-12T19:26:29.940-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.940-0700 [INFO]  📡 kv-go-server: 🔑 PLUGIN_CLIENT_CERT=-----BEGIN CERTIFICATE-----
+2025-03-12T19:26:29.941-0700 [DEBUG] 🌐 kv-client.kv-go-server: MIICBjCCAYugAwIBAgIRAM1f3vWrhUM0eGIFRQCfepwwCgYIKoZIzj0EAwMwKDES
+2025-03-12T19:26:29.941-0700 [DEBUG] 🌐 kv-client.kv-go-server: MBAGA1UEChMJSGFzaGlDb3JwMRIwEAYDVQQDEwlsb2NhbGhvc3QwIBcNMjUwMzEz
+2025-03-12T19:26:29.941-0700 [DEBUG] 🌐 kv-client.kv-go-server: MDIyNTU5WhgPMjA1NTAzMTMxNDI2MjlaMCgxEjAQBgNVBAoTCUhhc2hpQ29ycDES
+2025-03-12T19:26:29.941-0700 [DEBUG] 🌐 kv-client.kv-go-server: MBAGA1UEAxMJbG9jYWxob3N0MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAE51e1zBd7
+2025-03-12T19:26:29.941-0700 [DEBUG] 🌐 kv-client.kv-go-server: +7QgNnrtxzz+msMZWqixSrKAdJ5olYtcRDALumRQIyjZtO+8jPPyDj58mKAlem2I
+2025-03-12T19:26:29.941-0700 [DEBUG] 🌐 kv-client.kv-go-server: d/Z4Tvo9gQwJbJfqjew30ZOdPbZ0tFj9UCPiE3HZZhSTbJJSH0jeBJlJo3cwdTAO
+2025-03-12T19:26:29.941-0700 [DEBUG] 🌐 kv-client.kv-go-server: BgNVHQ8BAf8EBAMCAqwwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMA8G
+2025-03-12T19:26:29.941-0700 [DEBUG] 🌐 kv-client.kv-go-server: A1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFHaj2+eMe+TcntKJUbDr4h0NrDMSMBQG
+2025-03-12T19:26:29.941-0700 [DEBUG] 🌐 kv-client.kv-go-server: A1UdEQQNMAuCCWxvY2FsaG9zdDAKBggqhkjOPQQDAwNpADBmAjEAimduKrw+wSk5
+2025-03-12T19:26:29.941-0700 [DEBUG] 🌐 kv-client.kv-go-server: neryj7A0g6ArDm1riMIkn5uyVReCgvtobOa5/c3UvhEYQmKoD7IJAjEA2x9gaYNu
+2025-03-12T19:26:29.941-0700 [DEBUG] 🌐 kv-client.kv-go-server: nFXxOB5r2Ix3YINLqCtbmwFRKBDFYyth178+dQpN2UCZCc670g7Lp7Hz
+2025-03-12T19:26:29.941-0700 [DEBUG] 🌐 kv-client.kv-go-server: -----END CERTIFICATE-----
+2025-03-12T19:26:29.941-0700 [DEBUG] 🌐 kv-client.kv-go-server
+2025-03-12T19:26:29.941-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.940-0700 [INFO]  📡 kv-go-server: 📡🔐 AutoMTLS is enabled. Proceeding with TLS setup...
+2025-03-12T19:26:29.941-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.940-0700 [INFO]  📡 kv-go-server: 🔌🔐 Client Certificate Details:
+2025-03-12T19:26:29.941-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.941-0700 [DEBUG] 📡 kv-go-server: 📜 Certificate Information:
+2025-03-12T19:26:29.941-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.941-0700 [DEBUG] 📡 kv-go-server:    🔢 Serial Number: cd:5f:de:f5:ab:85:43:34:78:62:05:45:00:9f:7a:9c
+2025-03-12T19:26:29.941-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.941-0700 [DEBUG] 📡 kv-go-server:    🏷️  Subject: CN=localhost,O=HashiCorp
+2025-03-12T19:26:29.941-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.941-0700 [DEBUG] 📡 kv-go-server:    🏢 Organization: HashiCorp
+2025-03-12T19:26:29.941-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.941-0700 [DEBUG] 📡 kv-go-server:    🌐 Common Name: localhost
+2025-03-12T19:26:29.941-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.941-0700 [DEBUG] 📡 kv-go-server:    📆 Valid From: 2025-03-13 02:25:59 +0000 UTC
+2025-03-12T19:26:29.941-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.941-0700 [DEBUG] 📡 kv-go-server:    📆 Valid To: 2055-03-13 14:26:29 +0000 UTC
+2025-03-12T19:26:29.941-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.941-0700 [INFO]  📡 kv-go-server: 🗄️✨ starting plugin server
+2025-03-12T19:26:29.941-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.941-0700 [INFO]  📡 kv-go-server: configuring server automatic mTLS
+2025-03-12T19:26:29.944-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.944-0700 [INFO]  📡 kv-go-server: 🔐⛓️‍💥✅ AutoMTLS support is enabled.
+2025-03-12T19:26:29.944-0700 [DEBUG] 🌐 kv-client: using plugin: version=1
+2025-03-12T19:26:29.944-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.944-0700 [DEBUG] 🔌📡 kv-grpc-server: 📡🔄 initializing gRPC server registration
+2025-03-12T19:26:29.944-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.944-0700 [INFO]  🔌📡 kv-grpc-server: 📡✅ gRPC server registered successfully: server_type="*shared.GRPCServer"
+2025-03-12T19:26:29.944-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.944-0700 [DEBUG] 📡 kv-go-server: plugin address: network=unix address=/var/folders/sg/wy47gw996f78fznt898m8x540000gn/T/plugin3549568040
+2025-03-12T19:26:29.947-0700 [DEBUG] 🌐 kv-client: 🤝✅ RPC connection established
+2025-03-12T19:26:29.947-0700 [DEBUG] 🌐 kv-client: 🔌 starting RPC client
+2025-03-12T19:26:29.947-0700 [DEBUG] 🌐 kv-client: 🔌✅ RPC client started successfully: network=unix address=/var/folders/sg/wy47gw996f78fznt898m8x540000gn/T/plugin3549568040 protocol=grpc version=1 secure=true
+2025-03-12T19:26:29.947-0700 [DEBUG] 🌐 kv-client: 🔌 attempting to dispense plugin
+2025-03-12T19:26:29.947-0700 [DEBUG] 🔌🌐 kv-grpc-client: 🌐🔄 initializing new gRPC client connection: connection_state=READY target=unused
+2025-03-12T19:26:29.947-0700 [DEBUG] 🔌🌐 kv-grpc-client: 🌐✨ GRPCClient wrapper initialized successfully: client_implementation="*shared.GRPCClient"
+2025-03-12T19:26:29.947-0700 [DEBUG] 🌐 kv-client: 🔌✅ plugin dispensed successfully
+2025-03-12T19:26:29.947-0700 [DEBUG] 🌐 kv-client: ✅ type assertion successful
+2025-03-12T19:26:29.947-0700 [DEBUG] 🌐 kv-client: 📥 executing get operation: key=hello
+2025-03-12T19:26:29.947-0700 [DEBUG] 🔌🌐 kv-grpc-client: 🌐📥 initiating Get request: key=hello
+2025-03-12T19:26:29.947-0700 [TRACE] 🌐 kv-client.stdio: waiting for stdio data
+2025-03-12T19:26:29.947-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.947-0700 [DEBUG] 🔌📡 kv-grpc-server: 📡📥 handling Get request: key=hello
+2025-03-12T19:26:29.947-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.947-0700 [DEBUG] 📡 kv-go-server.kv: 🗄️📥 getting value: key=hello
+2025-03-12T19:26:29.947-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.947-0700 [DEBUG] 🔌📡 kv-grpc-server: 📡✅ Get operation completed successfully: key=hello value_size=5
+2025-03-12T19:26:29.947-0700 [DEBUG] 🔌🌐 kv-grpc-client: 🌐✅ Get request completed successfully: key=hello value_size=5
+2025-03-12T19:26:29.947-0700 [DEBUG] 🌐 kv-client: 📥✅ get operation successful: key=hello value_length=5
+world
+2025-03-12T19:26:29.947-0700 [INFO]  🌐 kv-client: 🏁 operation completed successfully
+2025-03-12T19:26:29.947-0700 [DEBUG] 🌐 kv-client: 🧹 cleaning up plugin client
+2025-03-12T19:26:29.947-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.947-0700 [INFO]  📡 kv-go-server: 🗄️🛑 plugin server exited before receiving a signal
+2025-03-12T19:26:29.947-0700 [DEBUG] 🌐 kv-client.kv-go-server: 2025-03-12T19:26:29.947-0700 [INFO]  📡 kv-go-server: 🗄️✅ clean shutdown completed
+2025-03-12T19:26:29.947-0700 [DEBUG] 🌐 kv-client.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2025-03-12T19:26:29.948-0700 [INFO]  🌐 kv-client: plugin process exited: plugin=/Users/tim/code/pyvider-rpcplugin/tests/kv/go-plugin/bin/kv-go-server id=55526
+2025-03-12T19:26:29.948-0700 [DEBUG] 🌐 kv-client: plugin exited

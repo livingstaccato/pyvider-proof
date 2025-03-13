@@ -1,0 +1,244 @@
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.config 🐍🏗️  | ⚙️ RPCPluginConfig initialized with environment variables.
+2025-03-12 19:26:59.529 DEBUG asyncio: Using selector: KqueueSelector
+2025-03-12 19:26:59     [INFO]                __main__ 🐍🏗️  | 🚀 Starting KV client with server: /Users/tim/code/pyvider-rpcplugin/examples/kvprobo/py_rpc/py_kv_server.py
+2025-03-12 19:26:59     [INFO]                __main__ 🐍🏗️  | 🔌 Connecting to server...
+2025-03-12 19:26:59    [DEBUG]                __main__ 🐍🏗️  | 🤝 Creating an RPCPluginClient for server path: /Users/tim/code/pyvider-rpcplugin/examples/kvprobo/py_rpc/py_kv_server.py
+2025-03-12 19:26:59    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🔧 RPCPluginClient.__attrs_post_init__: Client object created.
+2025-03-12 19:26:59    [DEBUG]                __main__ 🐍🏗️  | 📝 Started background stderr reader
+2025-03-12 19:26:59    [DEBUG]                __main__ 🐍🏗️  | ▶️ Starting the client with 15.0 second timeout
+2025-03-12 19:26:59    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🔄 Starting RPC plugin client...
+2025-03-12 19:26:59    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🔐 Checking if auto-mTLS is enabled for client.
+2025-03-12 19:26:59     [INFO]   rpcplugin.client.base 💻 ⚙️ | 🔐 Generating ephemeral self-signed client certificate.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜🔑🚀 Certificate.__init__: Generating new keypair as requested.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜🔑🚀 Certificate.__init__: Keypair generation config: {'common_name': 'localhost', 'organization': 'HashiCorp', 'alt_names': ['localhost'], 'key_type': <KeyType.ECDSA: 'ecdsa'>, 'key_size': None, 'curve': <CurveType.SECP384R1: 'secp384r1'>, 'not_valid_before': datetime.datetime(2025, 3, 13, 2, 26, 59, 530010, tzinfo=datetime.timezone.utc), 'not_valid_after': datetime.datetime(2026, 3, 13, 2, 26, 59, 530212, tzinfo=datetime.timezone.utc)}
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝🚀 CertificateBase.create: Starting certificate base creation.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜⏳✅ CertificateBase.create: Current UTC time: 2025-03-13 02:26:59.530309+00:00
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜⏳✅ CertificateBase.create: Validity period: before=2025-03-13 02:26:59.530010+00:00, after=2026-03-13 02:26:59.530212+00:00
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜🔑🚀 CertificateBase.create: Generating ECDSA key (curve: secp384r1).
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝🚀 _create_name: Creating name with common_name='localhost', organization='HashiCorp'.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝🚀 _create_name: Creating name with common_name='localhost', organization='HashiCorp'.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝✅ CertificateBase.create: Created subject and issuer: <Name(CN=localhost,O=HashiCorp)>
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜🔑✅ CertificateBase.create: Generated serial number: 103623336176411746358182813791109739435
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝✅ CertificateBase.create: Certificate base creation completed successfully.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝🚀 _create_x509_certificate: Starting certificate creation process.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜⏳✅ _create_x509_certificate: Validity period: not_valid_before=2025-03-13 02:26:29.531727+00:00, not_valid_after=2055-03-13 12:26:59.531727+00:00
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝🚀 _create_x509_certificate: Certificate builder initialized with base data.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝✅ _create_x509_certificate: Added Subject Alternative Names
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝✅ _create_x509_certificate: Added Basic Constraints extension.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝✅ _create_x509_certificate: Added Key Usage extension.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝✅ _create_x509_certificate: Added Extended Key Usage extension.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 🔑📂🚀 display_key_details: Starting extraction of private key details.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  |   🔑 Key Type: ECDSA
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  |   📏 Key Size: secp384r1
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  |   🔑 PEM Encoded Private Key:
+-----BEGIN PRIVATE KEY-----
+MIG2AgEAMBAGByqGSM49AgEGBSuBBAAiBIGeMIGbAgEBBDBm5th9zoLqbUc8X60L
+N8OrXuJDbM8MJXTZMM/CWSXiMwk9FhioLnOLF4uE87DMPRShZANiAATgKvE1IP1F
+3ewkw/6HZnfUWGUZsde7cACHhZQdqs7DCo6MIXDxXlXXmYjije9jhaVkdl/sk+2y
+24WyM0DUhhlnLTtxoKAYZclMMa3C/8hNUfdvINhZ1Fh8tiEMw3qqSjo=
+-----END PRIVATE KEY-----
+
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 🔑📂🚀 display_key_details: Private key details extracted successfully.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝✅ _create_x509_certificate: Certificate signed successfully.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜🔑✅ Certificate.__init__: Generated certificate and key converted to PEM successfully.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝✅ Certificate.__init__: Trust chain initialized.
+2025-03-12 19:26:59    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🖥️ Launching plugin subprocess with command: ['/Users/tim/code/pyvider-rpcplugin/examples/kvprobo/py_rpc/py_kv_server.py']
+2025-03-12 19:26:59     [INFO]   rpcplugin.client.base 💻 ⚙️ | 🖥️ Plugin subprocess started successfully.
+2025-03-12 19:26:59    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🤝 Initiating handshake with plugin server...
+2025-03-12 19:26:59    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🤝 Waiting for handshake from command: ['/Users/tim/code/pyvider-rpcplugin/examples/kvprobo/py_rpc/py_kv_server.py']
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.config 🐍🏗️  | ⚙️ RPCPluginConfig initialized with environment variables.
+2025-03-12 19:26:59     [INFO]                __main__ 🐍🏗️  | -------------------------------------------------
+2025-03-12 19:26:59     [INFO]                __main__ 🐍🏗️  | -----BEGIN CERTIFICATE-----
+MIIB5TCCAWugAwIBAgIQTfUg7HNIlLtoSlmedjtzqzAKBggqhkjOPQQDBDAoMRIw
+EAYDVQQDDAlsb2NhbGhvc3QxEjAQBgNVBAoMCUhhc2hpQ29ycDAgFw0yNTAzMTMw
+MjI2MjlaGA8yMDU1MDMxMzEyMjY1OVowKDESMBAGA1UEAwwJbG9jYWxob3N0MRIw
+EAYDVQQKDAlIYXNoaUNvcnAwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAATgKvE1IP1F
+3ewkw/6HZnfUWGUZsde7cACHhZQdqs7DCo6MIXDxXlXXmYjije9jhaVkdl/sk+2y
+24WyM0DUhhlnLTtxoKAYZclMMa3C/8hNUfdvINhZ1Fh8tiEMw3qqSjqjWDBWMBQG
+A1UdEQQNMAuCCWxvY2FsaG9zdDAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQE
+AwICrDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwCgYIKoZIzj0EAwQD
+aAAwZQIxAIDRfDWotE+Ss4ZtabE/ksmgbEBdKT6ZL86oEs74/fq+nCKUy1X8xgRA
+xaVwiXZGogIwFA+mWyJBOJdy2dVbYlrDYpHuWoDs+4R1/euLq//R1eUBdscDcql2
+ulXcuD1R3Osl
+-----END CERTIFICATE-----
+
+2025-03-12 19:26:59     [INFO]                __main__ 🐍🏗️  | -------------------------------------------------
+2025-03-12 19:26:59     [INFO]                __main__ 🐍🏗️  | 🛎️🚀 Starting KV plugin server...
+2025-03-12 19:26:59    [DEBUG]                __main__ 🐍🏗️  | 🛎️📡✅ KVHandler: Initialized with file‑based persistence.
+2025-03-12 19:26:59     [INFO]                __main__ 🐍🏗️  | 🛎️🧪 Self-Test: Executing Put for key 'status' with value 'pyvider server listening'
+2025-03-12 19:26:59     [INFO]                __main__ 🐍🏗️  | 🛎️📡🚀 Put: Received request for key: 'status'
+2025-03-12 19:26:59    [DEBUG]                __main__ 🐍🏗️  | 🛎️📡📝 Put: Storing key 'status' with value (summary): pyvider server listening
+2025-03-12 19:26:59    [DEBUG]                __main__ 🐍🏗️  | 🛎️📡✅ Put: Successfully stored key 'status' in file '/tmp/kv-data-status'.
+2025-03-12 19:26:59     [INFO]                __main__ 🐍🏗️  | 🛎️🧪 Self-Test: Put executed successfully.
+2025-03-12 19:26:59     [INFO]                __main__ 🐍🏗️  | 🛎️🧪 Self-Test: Executing Get for key 'status'
+2025-03-12 19:26:59     [INFO]                __main__ 🐍🏗️  | 🛎️📡🚀 Get: Received request for key: 'status'
+2025-03-12 19:26:59    [DEBUG]                __main__ 🐍🏗️  | 🛎️📡📝 Get: Looking for file '/tmp/kv-data-status' for key 'status'.
+2025-03-12 19:26:59    [DEBUG]                __main__ 🐍🏗️  | 🛎️📡✅ Get: Successfully retrieved key 'status' with value (summary): pyvider server listening
+2025-03-12 19:26:59     [INFO]                __main__ 🐍🏗️  | 🛎️🧪 Self-Test: Get returned: pyvider server listening
+2025-03-12 19:26:59    [DEBUG]                __main__ 🐍🏗️  | 🛎️🚀✅ Server: Server started successfully
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️⚙️ Initializing HandshakeConfig from configuration.
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️⚙️ HandshakeConfig set: HandshakeConfig(magic_cookie_key='BASIC_PLUGIN', magic_cookie_value='hello', protocol_versions=[1], supported_transports=['unix', 'tcp'])
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️⚙️ Global RPCPluginServer instance set.
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Entering serve(); starting server setup...
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Registering signal handlers for graceful shutdown...
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Signal handler registered for SIGINT.
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Signal handler registered for SIGTERM.
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🤝 Starting handshake negotiation...
+2025-03-12 19:26:59    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🍪🔍 Starting magic cookie validation...
+2025-03-12 19:26:59    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🍪 cookie_key: BASIC_PLUGIN
+2025-03-12 19:26:59    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🍪 cookie_value: hello
+2025-03-12 19:26:59    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🍪 cookie_provided: hello
+2025-03-12 19:26:59    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🍪✅ Magic cookie validated successfully.
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🤝 Magic cookie validated.
+2025-03-12 19:26:59    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🤝🔄 Negotiating protocol version. Server supports: [1]
+2025-03-12 19:26:59     [INFO]     rpcplugin.handshake 🐍🏗️  | 🤝✅ Selected protocol version: 1
+2025-03-12 19:26:59     [INFO]        rpcplugin.server 🏗️ 🫴  | 🤝 Selected protocol version: 1
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🤝 Negotiating transport from configuration...
+2025-03-12 19:26:59    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🗣️🚊 (Transport Negotiation: Starting) => Available transports: ['unix', 'tcp']
+2025-03-12 19:26:59    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🗣️🚊🧦 (Transport Negotiation: Selected Unix) => Unix socket transport is available
+2025-03-12 19:26:59    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🔍🚀 * Normalizing Unix path: /tmp/pyvider-59810.sock
+2025-03-12 19:26:59    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🔍✅ * Normalized path: /tmp/pyvider-59810.sock
+2025-03-12 19:26:59    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🚀✅ UnixSocketTransport initialized with path=/tmp/pyvider-59810.sock
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🤝 Handshake negotiation completed; transport selected: unix.
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️🔐✅ Client cert found in global config.
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Setting up gRPC server instance...
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ gRPC server instance created.
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Registering protocol service to gRPC server...
+2025-03-12 19:26:59    [DEBUG] y_rpc.proto.kv_protocol 🐍🏗️  | 🔌📡🚀 KVProtocol.add_to_server: Registering KV service
+2025-03-12 19:26:59    [DEBUG] plugin.protocol.service 🐍🏗️  | 🔌 ProtocolService => Registered GRPCStdio, GRPCBroker, GRPCController with gRPC server.
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Protocol service registered successfully.
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ mTLS enabled – configuring TLS credentials.
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Generating server credentials using Certificate API.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜🔑🚀 Certificate.__init__: Generating new keypair as requested.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜🔑🚀 Certificate.__init__: Keypair generation config: {'common_name': 'localhost', 'organization': 'HashiCorp', 'alt_names': ['localhost'], 'key_type': <KeyType.ECDSA: 'ecdsa'>, 'key_size': None, 'curve': <CurveType.SECP384R1: 'secp384r1'>, 'not_valid_before': datetime.datetime(2025, 3, 13, 2, 26, 59, 644931, tzinfo=datetime.timezone.utc), 'not_valid_after': datetime.datetime(2026, 3, 13, 2, 26, 59, 645072, tzinfo=datetime.timezone.utc)}
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝🚀 CertificateBase.create: Starting certificate base creation.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜⏳✅ CertificateBase.create: Current UTC time: 2025-03-13 02:26:59.645120+00:00
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜⏳✅ CertificateBase.create: Validity period: before=2025-03-13 02:26:59.644931+00:00, after=2026-03-13 02:26:59.645072+00:00
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜🔑🚀 CertificateBase.create: Generating ECDSA key (curve: secp384r1).
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝🚀 _create_name: Creating name with common_name='localhost', organization='HashiCorp'.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝🚀 _create_name: Creating name with common_name='localhost', organization='HashiCorp'.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝✅ CertificateBase.create: Created subject and issuer: <Name(CN=localhost,O=HashiCorp)>
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜🔑✅ CertificateBase.create: Generated serial number: 62052452602851962641136195661815376537
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝✅ CertificateBase.create: Certificate base creation completed successfully.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝🚀 _create_x509_certificate: Starting certificate creation process.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜⏳✅ _create_x509_certificate: Validity period: not_valid_before=2025-03-13 02:26:29.646672+00:00, not_valid_after=2055-03-13 12:26:59.646672+00:00
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝🚀 _create_x509_certificate: Certificate builder initialized with base data.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝✅ _create_x509_certificate: Added Subject Alternative Names
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝✅ _create_x509_certificate: Added Basic Constraints extension.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝✅ _create_x509_certificate: Added Key Usage extension.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝✅ _create_x509_certificate: Added Extended Key Usage extension.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 🔑📂🚀 display_key_details: Starting extraction of private key details.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  |   🔑 Key Type: ECDSA
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  |   📏 Key Size: secp384r1
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  |   🔑 PEM Encoded Private Key:
+-----BEGIN PRIVATE KEY-----
+MIG2AgEAMBAGByqGSM49AgEGBSuBBAAiBIGeMIGbAgEBBDCEA9rucZojM+PWrE/E
+G/iF2eEnVoZ0iWI+cxxZL1n0INS0iT6rPOUWX7cQz9ZENHihZANiAASgtMCqfzgH
+GSRp1KQdkBK7VfG8QX8EsXOPYR4NB1qMvdUlXh5stOyU0o+B+LYmE31Z6ShPqVXW
++Gawvh1Gv4NgPj4vXo3vtKo2for9gulePOa7mubQnXnORRI31X7Qvn8=
+-----END PRIVATE KEY-----
+
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 🔑📂🚀 display_key_details: Private key details extracted successfully.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝✅ _create_x509_certificate: Certificate signed successfully.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜🔑✅ Certificate.__init__: Generated certificate and key converted to PEM successfully.
+2025-03-12 19:26:59    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝✅ Certificate.__init__: Trust chain initialized.
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Server certificate loaded/generated successfully.
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Server TLS credentials created with mTLS enabled.
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Using Unix socket transport; listening on socket...
+2025-03-12 19:26:59    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🕹✅ Created directory: /tmp
+2025-03-12 19:26:59    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🕹🚀 Creating Unix socket at /tmp/pyvider-59810.sock
+2025-03-12 19:26:59    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🕹✅ Set world-writable permissions (0770) on /tmp/pyvider-59810.sock
+2025-03-12 19:26:59    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🕹✅ Server listening on /tmp/pyvider-59810.sock
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Bound to Unix socket at unix:/tmp/pyvider-59810.sock.
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ gRPC server started successfully.
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Verified Unix socket file permissions at /tmp/pyvider-59810.sock.
+2025-03-12 19:26:59    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🤝📝🔄 Building handshake response...
+2025-03-12 19:26:59    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🤝📝✅ Using existing Unix transport endpoint: /tmp/pyvider-59810.sock
+2025-03-12 19:26:59    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🤝📝🔄 Base response structure: ['1', '1', 'unix', '/tmp/pyvider-59810.sock', 'grpc', '']
+2025-03-12 19:26:59    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🤝🔐🔄 Processing server certificate...
+2025-03-12 19:26:59    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🤝🔐✅ Certificate data added to response.
+2025-03-12 19:26:59    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🤝 Read partial handshake data: '1|1|unix|/tmp/pyvider-59810.sock|grpc|MIIB5TCCAWugAwIBAgIQLq7eHudMzZB8ODVJFBhqmTAKBggqhkjOPQQDBDAoMRIwEAYDVQQDDAlsb2NhbGhvc3QxEjAQBgNVBAoMCUhhc2hpQ29ycDAgFw0yNTAzMTMwMjI2MjlaGA8yMDU1MDMxMzEyMjY1OVowKDESMBAGA1UEAwwJbG9jYWxob3N0MRIwEAYDVQQKDAlIYXNoaUNvcnAwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAASgtMCqfzgHGSRp1KQdkBK7VfG8QX8EsXOPYR4NB1qMvdUlXh5stOyU0o+B+LYmE31Z6ShPqVXW+Gawvh1Gv4NgPj4vXo3vtKo2for9gulePOa7mubQnXnORRI31X7Qvn+jWDBWMBQGA1UdEQQNMAuCCWxvY2FsaG9zdDAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwICrDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwCgYIKoZIzj0EAwQDaAAwZQIwALoh+MY+ZL5v/Q3yXSHIX5WLeVMt14B+m2dlB+dYJ955No4ZDrUYGYL6zqfwyYVeAjEA8x7LwktfGjjVyTgQAjbFyFjd3j7QWd/k8G7RKPfjjqEbfMDaX7cki7Xw2g9rERGB', buffer: '1|1|unix|/tmp/pyvider-59810.sock|grpc|MIIB5TCCAWugAwIBAgIQLq7eHudMzZB8ODVJFBhqmTAKBggqhkjOPQQDBDAoMRIwEAYDVQQDDAlsb2NhbGhvc3QxEjAQBgNVBAoMCUhhc2hpQ29ycDAgFw0yNTAzMTMwMjI2MjlaGA8yMDU1MDMxMzEyMjY1OVowKDESMBAGA1UEAwwJbG9jYWxob3N0MRIwEAYDVQQKDAlIYXNoaUNvcnAwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAASgtMCqfzgHGSRp1KQdkBK7VfG8QX8EsXOPYR4NB1qMvdUlXh5stOyU0o+B+LYmE31Z6ShPqVXW+Gawvh1Gv4NgPj4vXo3vtKo2for9gulePOa7mubQnXnORRI31X7Qvn+jWDBWMBQGA1UdEQQNMAuCCWxvY2FsaG9zdDAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwICrDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwCgYIKoZIzj0EAwQDaAAwZQIwALoh+MY+ZL5v/Q3yXSHIX5WLeVMt14B+m2dlB+dYJ955No4ZDrUYGYL6zqfwyYVeAjEA8x7LwktfGjjVyTgQAjbFyFjd3j7QWd/k8G7RKPfjjqEbfMDaX7cki7Xw2g9rERGB'
+2025-03-12 19:26:59    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🤝 Received handshake response: 1|1|unix|/tmp/pyvider-59810.sock|grpc|MIIB5TCCAWugAwIBAgIQLq...
+2025-03-12 19:26:59    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 📡🔍 Starting handshake response parsing for: 1|1|unix|/tmp/pyvider-59810.sock|grpc|MIIB5TCCAWugAwIBAgIQLq7eHudMzZB8ODVJFBhqmTAKBggqhkjOPQQDBDAoMRIwEAYDVQQDDAlsb2NhbGhvc3QxEjAQBgNVBAoMCUhhc2hpQ29ycDAgFw0yNTAzMTMwMjI2MjlaGA8yMDU1MDMxMzEyMjY1OVowKDESMBAGA1UEAwwJbG9jYWxob3N0MRIwEAYDVQQKDAlIYXNoaUNvcnAwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAASgtMCqfzgHGSRp1KQdkBK7VfG8QX8EsXOPYR4NB1qMvdUlXh5stOyU0o+B+LYmE31Z6ShPqVXW+Gawvh1Gv4NgPj4vXo3vtKo2for9gulePOa7mubQnXnORRI31X7Qvn+jWDBWMBQGA1UdEQQNMAuCCWxvY2FsaG9zdDAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwICrDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwCgYIKoZIzj0EAwQDaAAwZQIwALoh+MY+ZL5v/Q3yXSHIX5WLeVMt14B+m2dlB+dYJ955No4ZDrUYGYL6zqfwyYVeAjEA8x7LwktfGjjVyTgQAjbFyFjd3j7QWd/k8G7RKPfjjqEbfMDaX7cki7Xw2g9rERGB
+2025-03-12 19:26:59    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 📡🔍 Split handshake response into parts: ['1', '1', 'unix', '/tmp/pyvider-59810.sock', 'grpc', 'MIIB5TCCAWugAwIBAgIQLq7eHudMzZB8ODVJFBhqmTAKBggqhkjOPQQDBDAoMRIwEAYDVQQDDAlsb2NhbGhvc3QxEjAQBgNVBAoMCUhhc2hpQ29ycDAgFw0yNTAzMTMwMjI2MjlaGA8yMDU1MDMxMzEyMjY1OVowKDESMBAGA1UEAwwJbG9jYWxob3N0MRIwEAYDVQQKDAlIYXNoaUNvcnAwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAASgtMCqfzgHGSRp1KQdkBK7VfG8QX8EsXOPYR4NB1qMvdUlXh5stOyU0o+B+LYmE31Z6ShPqVXW+Gawvh1Gv4NgPj4vXo3vtKo2for9gulePOa7mubQnXnORRI31X7Qvn+jWDBWMBQGA1UdEQQNMAuCCWxvY2FsaG9zdDAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwICrDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwCgYIKoZIzj0EAwQDaAAwZQIwALoh+MY+ZL5v/Q3yXSHIX5WLeVMt14B+m2dlB+dYJ955No4ZDrUYGYL6zqfwyYVeAjEA8x7LwktfGjjVyTgQAjbFyFjd3j7QWd/k8G7RKPfjjqEbfMDaX7cki7Xw2g9rERGB']
+2025-03-12 19:26:59    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 📡🔐 Restored certificate padding for handshake parsing.
+2025-03-12 19:26:59    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 📡✅ Handshake parsing success: core_version=1, plugin_version=1, network=unix, address=/tmp/pyvider-59810.sock, protocol=grpc, server_cert=present
+2025-03-12 19:26:59    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🤝 Handshake parse => core_version=1, protocol_version=1, network=unix, address=/tmp/pyvider-59810.sock, protocol=grpc, cert=True
+2025-03-12 19:26:59    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | *** network is set to unix
+2025-03-12 19:26:59    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🤝🔍 Normalized Unix path from '/tmp/pyvider-59810.sock' to '/tmp/pyvider-59810.sock'
+2025-03-12 19:26:59    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🔍🚀 * Normalizing Unix path: /tmp/pyvider-59810.sock
+2025-03-12 19:26:59    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🔍✅ * Normalized path: /tmp/pyvider-59810.sock
+2025-03-12 19:26:59    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🚀✅ UnixSocketTransport initialized with path=/tmp/pyvider-59810.sock
+2025-03-12 19:26:59    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🔍🚀 * Normalizing Unix path: /tmp/pyvider-59810.sock
+2025-03-12 19:26:59    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🔍✅ * Normalized path: /tmp/pyvider-59810.sock
+2025-03-12 19:26:59    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🤝🚀 Connecting to Unix socket at '/tmp/pyvider-59810.sock' (from '/tmp/pyvider-59810.sock')
+2025-03-12 19:26:59    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🤝✅ Connected to Unix socket at /tmp/pyvider-59810.sock
+2025-03-12 19:26:59     [INFO]   rpcplugin.client.base 💻 ⚙️ | 🚄 Transport connected via unix -> /tmp/pyvider-59810.sock
+2025-03-12 19:26:59    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🚢 Attempting to create gRPC channel to plugin...
+2025-03-12 19:26:59    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🚢🔍 Creating gRPC channel with target: unix:/tmp/pyvider-59810.sock
+2025-03-12 19:26:59    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🔐 Rebuilt server certificate into PEM format.
+2025-03-12 19:26:59    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🔐 Creating mTLS channel with client certs + server root.
+2025-03-12 19:26:59.653 DEBUG grpc._cython.cygrpc: Using AsyncIOEngine.POLLER as I/O engine
+2025-03-12 19:26:59    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🤝📝✅ Handshake response successfully built: 1|1|unix|/tmp/pyvider-59810.sock|grpc|MIIB5TCCAWugAwIBAgIQLq7eHudMzZB8ODVJFBhqmTAKBggqhkjOPQQDBDAoMRIwEAYDVQQDDAlsb2NhbGhvc3QxEjAQBgNVBAoMCUhhc2hpQ29ycDAgFw0yNTAzMTMwMjI2MjlaGA8yMDU1MDMxMzEyMjY1OVowKDESMBAGA1UEAwwJbG9jYWxob3N0MRIwEAYDVQQKDAlIYXNoaUNvcnAwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAASgtMCqfzgHGSRp1KQdkBK7VfG8QX8EsXOPYR4NB1qMvdUlXh5stOyU0o+B+LYmE31Z6ShPqVXW+Gawvh1Gv4NgPj4vXo3vtKo2for9gulePOa7mubQnXnORRI31X7Qvn+jWDBWMBQGA1UdEQQNMAuCCWxvY2FsaG9zdDAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwICrDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwCgYIKoZIzj0EAwQDaAAwZQIwALoh+MY+ZL5v/Q3yXSHIX5WLeVMt14B+m2dlB+dYJ955No4ZDrUYGYL6zqfwyYVeAjEA8x7LwktfGjjVyTgQAjbFyFjd3j7QWd/k8G7RKPfjjqEbfMDaX7cki7Xw2g9rERGB
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🤝📝 Handshake response built: 1|1|unix|/tmp/pyvider-59810.sock|grpc|MIIB5TCCAWugAwIBAgIQLq7eHudMzZB8ODVJFBhqmTAKBggqhkjOPQQDBDAoMRIwEAYDVQQDDAlsb2NhbGhvc3QxEjAQBgNVBAoMCUhhc2hpQ29ycDAgFw0yNTAzMTMwMjI2MjlaGA8yMDU1MDMxMzEyMjY1OVowKDESMBAGA1UEAwwJbG9jYWxob3N0MRIwEAYDVQQKDAlIYXNoaUNvcnAwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAASgtMCqfzgHGSRp1KQdkBK7VfG8QX8EsXOPYR4NB1qMvdUlXh5stOyU0o+B+LYmE31Z6ShPqVXW+Gawvh1Gv4NgPj4vXo3vtKo2for9gulePOa7mubQnXnORRI31X7Qvn+jWDBWMBQGA1UdEQQNMAuCCWxvY2FsaG9zdDAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwICrDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwCgYIKoZIzj0EAwQDaAAwZQIwALoh+MY+ZL5v/Q3yXSHIX5WLeVMt14B+m2dlB+dYJ955No4ZDrUYGYL6zqfwyYVeAjEA8x7LwktfGjjVyTgQAjbFyFjd3j7QWd/k8G7RKPfjjqEbfMDaX7cki7Xw2g9rERGB
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🤝📝✅ Handshake response sent to stdout
+2025-03-12 19:26:59    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Server running; awaiting shutdown signal...
+2025-03-12 19:26:59    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🚢 gRPC channel created successfully.
+2025-03-12 19:26:59    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🚢✅ gRPC channel ready and connected.
+2025-03-12 19:26:59    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🔌 Creating GRPCStdioStub, GRPCBrokerStub, GRPCControllerStub from channel.
+2025-03-12 19:26:59     [INFO]   rpcplugin.client.base 💻 ⚙️ | ✅ RPC plugin client started and ready.
+2025-03-12 19:26:59    [DEBUG]                __main__ 🐍🏗️  | 🤝✅ Connected via UnixSocketTransport to /tmp/pyvider-59810.sock
+2025-03-12 19:26:59    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🔌📝 Starting to read plugin's stdio stream...
+2025-03-12 19:26:59    [DEBUG] plugin.protocol.service 🐍🏗️  | 🔌📝✅ GRPCStdioService.StreamStdio => started. Streaming lines to host.
+2025-03-12 19:27:00     [INFO]                __main__ 🐍🏗️  | ✅ Connected to KV server successfully in 0.628s
+2025-03-12 19:27:00     [INFO]                __main__ 🐍🏗️  | 🔌 Connected successfully
+2025-03-12 19:27:00     [INFO]                __main__ 🐍🏗️  | 📝 Putting key=hello, value=b'world'
+2025-03-12 19:27:00    [DEBUG]                __main__ 🐍🏗️  | Put request - key=hello, value_size=5
+2025-03-12 19:27:00     [INFO]                __main__ 🐍🏗️  | 🛎️📡🚀 Put: Received request for key: 'hello'
+2025-03-12 19:27:00    [DEBUG]                __main__ 🐍🏗️  | 🛎️📡📝 Put: Storing key 'hello' with value (summary): world
+2025-03-12 19:27:00    [DEBUG]                __main__ 🐍🏗️  | 🛎️📡✅ Put: Successfully stored key 'hello' in file '/tmp/kv-data-hello'.
+2025-03-12 19:27:00    [DEBUG]                __main__ 🐍🏗️  | Put successful: key=hello
+2025-03-12 19:27:00     [INFO]                __main__ 🐍🏗️  | 📝 Put operation successful
+2025-03-12 19:27:00     [INFO]                __main__ 🐍🏗️  | 📚 Getting key=hello
+2025-03-12 19:27:00     [INFO]                __main__ 🐍🏗️  | 🛎️📡🚀 Get: Received request for key: 'hello'
+2025-03-12 19:27:00    [DEBUG]                __main__ 🐍🏗️  | 🛎️📡📝 Get: Looking for file '/tmp/kv-data-hello' for key 'hello'.
+2025-03-12 19:27:00    [DEBUG]                __main__ 🐍🏗️  | 🛎️📡✅ Get: Successfully retrieved key 'hello' with value (summary): world
+2025-03-12 19:27:00    [DEBUG]                __main__ 🐍🏗️  | Get successful: key=hello, found=yes
+2025-03-12 19:27:00     [INFO]                __main__ 🐍🏗️  | 📚 Get result: world
+2025-03-12 19:27:00     [INFO]                __main__ 🐍🏗️  | ✅ Test successful! Value matches
+2025-03-12 19:27:00    [DEBUG]                __main__ 🐍🏗️  | 🔒 Closing client connection
+2025-03-12 19:27:00    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🔄 Closing RPCPluginClient...
+2025-03-12 19:27:00    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🔌📝 read_stdio_logs task cancelled. Shutting down stdio read.
+2025-03-12 19:27:00    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🔌📝 Plugin stdio reading loop ended.
+2025-03-12 19:27:00    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🔄 Closing gRPC channel...
+2025-03-12 19:27:00    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🔄 gRPC channel closed.
+2025-03-12 19:27:00    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🔄 Terminating plugin subprocess...
+2025-03-12 19:27:00    [DEBUG] plugin.protocol.service 🐍🏗️  | 🔌📝🛑 StreamStdio cancelled
+2025-03-12 19:27:00    [DEBUG] plugin.protocol.service 🐍🏗️  | 🔌📝🛑 GRPCStdioService.StreamStdio => stopping, either shutdown or context done.
+2025-03-12 19:27:00     [INFO]        rpcplugin.server 🏗️ 🫴  | 🛎️ Shutdown signal received; initiating graceful shutdown...
+2025-03-12 19:27:00    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Serving future resolved on shutdown request.
+2025-03-12 19:27:00    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Stopping server...
+2025-03-12 19:27:00    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Exiting serve(); initiating shutdown...
+2025-03-12 19:27:00    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Stopping server...
+2025-03-12 19:27:00    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ gRPC server stopped successfully.
+2025-03-12 19:27:00    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🔒🚀 Closing Unix socket transport at /tmp/pyvider-59810.sock
+2025-03-12 19:27:00    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🔒✅ Closed server
+2025-03-12 19:27:00    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ gRPC server stopped successfully.
+2025-03-12 19:27:00    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🔒🚀 Closing Unix socket transport at /tmp/pyvider-59810.sock
+2025-03-12 19:27:00    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🔒✅ Already closing, skipping duplicate close
+2025-03-12 19:27:00    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Transport closed successfully.
+2025-03-12 19:27:00    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Server shutdown complete.
+2025-03-12 19:27:00    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Shutdown complete; exiting process.
+2025-03-12 19:27:00     [INFO]                __main__ 🐍🏗️  | 🛎️🚀✅ Server: Server started successfully
+2025-03-12 19:27:00    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Stopping server...
+2025-03-12 19:27:00    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Server shutdown complete.
+2025-03-12 19:27:00     [INFO]                __main__ 🐍🏗️  | 🛎️🛑 Server: Server stopped
+2025-03-12 19:27:00    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🔄 Plugin subprocess terminated.
+2025-03-12 19:27:00    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🔄 Closing transport socket...
+2025-03-12 19:27:00    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🔒🚀 Closing Unix socket transport at /tmp/pyvider-59810.sock
+2025-03-12 19:27:00    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🔒✅ Client writer closed
+2025-03-12 19:27:00    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🔒✅ Unix socket transport closed completely
+2025-03-12 19:27:00    [DEBUG]   rpcplugin.client.base 💻 ⚙️ | 🔄 Transport socket closed.
+2025-03-12 19:27:00     [INFO]   rpcplugin.client.base 💻 ⚙️ | 🔄 RPCPluginClient fully closed.
+2025-03-12 19:27:00    [DEBUG]                __main__ 🐍🏗️  | 🔒 Client connection closed successfully
+2025-03-12 19:27:00     [INFO]                __main__ 🐍🏗️  | 🏁 Test completed

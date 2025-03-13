@@ -1,0 +1,181 @@
+2025-03-12T19:26:44.679-0700 [INFO]  🌐 kv-client: 📡🌍 Displaying Environment Variables:
+2025-03-12T19:26:44.679-0700 [INFO]  🌐 kv-client: 🔑 PLUGIN_MAGIC_COOKIE_KEY=BASIC_PLUGIN
+2025-03-12T19:26:44.679-0700 [INFO]  🌐 kv-client: 🔑 PLUGIN_MAGIC_COOKIE_VALUE=hello
+2025-03-12T19:26:44.679-0700 [INFO]  🌐 kv-client: 🔑 PLUGIN_MAGIC_COOKIE=hello
+2025-03-12T19:26:44.679-0700 [INFO]  🌐 kv-client: 🔑 BASIC_PLUGIN=hello
+2025-03-12T19:26:44.679-0700 [INFO]  🌐 kv-client: 🔑 PLUGIN_AUTO_MTLS=true
+2025-03-12T19:26:44.679-0700 [INFO]  🌐 kv-client: 🔑 PLUGIN_SERVER_PATH=/Users/tim/code/pyvider-rpcplugin/examples/kvprobo/py_rpc/py_kv_server.py
+2025-03-12T19:26:44.679-0700 [INFO]  🌐 kv-client: 🚀 starting KV client application
+2025-03-12T19:26:44.679-0700 [DEBUG] 🌐 kv-client: 🔍✅ found PLUGIN_SERVER_PATH path: path=/Users/tim/code/pyvider-rpcplugin/examples/kvprobo/py_rpc/py_kv_server.py
+2025-03-12T19:26:44.679-0700 [DEBUG] 🌐 kv-client: 🔍✅ verified plugin executable exists
+2025-03-12T19:26:44.679-0700 [INFO]  🌐 kv-client: 🔐 AutoMTLS is enabled. Proceeding with TLS setup...
+2025-03-12T19:26:44.679-0700 [DEBUG] 🌐 kv-client: 🔧✅ plugin client configuration complete: timeout=5s managed=true auto_mtls=true
+2025-03-12T19:26:44.679-0700 [DEBUG] 🌐 kv-client: 🔌 creating new plugin client
+2025-03-12T19:26:44.679-0700 [DEBUG] 🌐 kv-client: 🤝 attempting to establish RPC connection
+2025-03-12T19:26:44.679-0700 [INFO]  🌐 kv-client: configuring client automatic mTLS
+2025-03-12T19:26:44.682-0700 [DEBUG] 🌐 kv-client: starting plugin: path=/Users/tim/code/pyvider-rpcplugin/examples/kvprobo/py_rpc/py_kv_server.py args=["/Users/tim/code/pyvider-rpcplugin/examples/kvprobo/py_rpc/py_kv_server.py"]
+2025-03-12T19:26:44.684-0700 [DEBUG] 🌐 kv-client: plugin started: path=/Users/tim/code/pyvider-rpcplugin/examples/kvprobo/py_rpc/py_kv_server.py pid=58734
+2025-03-12T19:26:44.684-0700 [DEBUG] 🌐 kv-client: waiting for RPC address: plugin=/Users/tim/code/pyvider-rpcplugin/examples/kvprobo/py_rpc/py_kv_server.py
+2025-03-12T19:26:44.772-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.config 🐍🏗️  | ⚙️ RPCPluginConfig initialized with environment variables.
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44     [INFO]                __main__ 🐍🏗️  | -------------------------------------------------
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44     [INFO]                __main__ 🐍🏗️  | -----BEGIN CERTIFICATE-----
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: MIICAzCCAYqgAwIBAgIQKzgGDGav+unjz3nPCNM1zDAKBggqhkjOPQQDAzAoMRIw
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: EAYDVQQKEwlIYXNoaUNvcnAxEjAQBgNVBAMTCWxvY2FsaG9zdDAgFw0yNTAzMTMw
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: MjI2MTRaGA8yMDU1MDMxMzE0MjY0NFowKDESMBAGA1UEChMJSGFzaGlDb3JwMRIw
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: EAYDVQQDEwlsb2NhbGhvc3QwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAARUxwrLCAN8
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: poBI4gXP74WCKYOLbp8vg+GtGiE5wamJwbvkk5uaHfffj1QM0LtnRWNAKKEb0XqI
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: HmK8IAOd1wJl9RCyv22UwvS27NdpbsnAsIcYPwDoMRxaiQvwR1AU5Y2jdzB1MA4G
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: A1UdDwEB/wQEAwICrDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwDwYD
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: VR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUIPA35m318anF4Jg1BdgBlshk7oYwFAYD
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: VR0RBA0wC4IJbG9jYWxob3N0MAoGCCqGSM49BAMDA2cAMGQCMHqS1U7lAXtebjVd
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: NNm14O/eT7uonIJq1n4iv9pFkAyN9rvKe5ukSd+xignr36whgQIwEtfOT4gDqNb3
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: KoJnxfmEESCiF2gWdDf3QxEl5u7He7yo7RvvfGdCnQ+uOf8RvaPq
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: -----END CERTIFICATE-----
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44     [INFO]                __main__ 🐍🏗️  | -------------------------------------------------
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44     [INFO]                __main__ 🐍🏗️  | 🛎️🚀 Starting KV plugin server...
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]                __main__ 🐍🏗️  | 🛎️📡✅ KVHandler: Initialized with file‑based persistence.
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44     [INFO]                __main__ 🐍🏗️  | 🛎️🧪 Self-Test: Executing Put for key 'status' with value 'pyvider server listening'
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44     [INFO]                __main__ 🐍🏗️  | 🛎️📡🚀 Put: Received request for key: 'status'
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]                __main__ 🐍🏗️  | 🛎️📡📝 Put: Storing key 'status' with value (summary): pyvider server listening
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]                __main__ 🐍🏗️  | 🛎️📡✅ Put: Successfully stored key 'status' in file '/tmp/kv-data-status'.
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44     [INFO]                __main__ 🐍🏗️  | 🛎️🧪 Self-Test: Put executed successfully.
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44     [INFO]                __main__ 🐍🏗️  | 🛎️🧪 Self-Test: Executing Get for key 'status'
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44     [INFO]                __main__ 🐍🏗️  | 🛎️📡🚀 Get: Received request for key: 'status'
+2025-03-12T19:26:44.804-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]                __main__ 🐍🏗️  | 🛎️📡📝 Get: Looking for file '/tmp/kv-data-status' for key 'status'.
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]                __main__ 🐍🏗️  | 🛎️📡✅ Get: Successfully retrieved key 'status' with value (summary): pyvider server listening
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44     [INFO]                __main__ 🐍🏗️  | 🛎️🧪 Self-Test: Get returned: pyvider server listening
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]                __main__ 🐍🏗️  | 🛎️🚀✅ Server: Server started successfully
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️⚙️ Initializing HandshakeConfig from configuration.
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️⚙️ HandshakeConfig set: HandshakeConfig(magic_cookie_key='BASIC_PLUGIN', magic_cookie_value='hello', protocol_versions=[1], supported_transports=['unix', 'tcp'])
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️⚙️ Global RPCPluginServer instance set.
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Entering serve(); starting server setup...
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Registering signal handlers for graceful shutdown...
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Signal handler registered for SIGINT.
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Signal handler registered for SIGTERM.
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🤝 Starting handshake negotiation...
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🍪🔍 Starting magic cookie validation...
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🍪 cookie_key: BASIC_PLUGIN
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🍪 cookie_value: hello
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🍪 cookie_provided: hello
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🍪✅ Magic cookie validated successfully.
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🤝 Magic cookie validated.
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🤝🔄 Negotiating protocol version. Server supports: [1]
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44     [INFO]     rpcplugin.handshake 🐍🏗️  | 🤝✅ Selected protocol version: 1
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44     [INFO]        rpcplugin.server 🏗️ 🫴  | 🤝 Selected protocol version: 1
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🤝 Negotiating transport from configuration...
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🗣️🚊 (Transport Negotiation: Starting) => Available transports: ['unix', 'tcp']
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🗣️🚊🧦 (Transport Negotiation: Selected Unix) => Unix socket transport is available
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🔍🚀 * Normalizing Unix path: /tmp/pyvider-58734.sock
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🔍✅ * Normalized path: /tmp/pyvider-58734.sock
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🚀✅ UnixSocketTransport initialized with path=/tmp/pyvider-58734.sock
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🤝 Handshake negotiation completed; transport selected: unix.
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️🔐✅ Client cert found in global config.
+2025-03-12T19:26:44.805-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Setting up gRPC server instance...
+2025-03-12T19:26:44.806-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ gRPC server instance created.
+2025-03-12T19:26:44.806-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Registering protocol service to gRPC server...
+2025-03-12T19:26:44.806-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] y_rpc.proto.kv_protocol 🐍🏗️  | 🔌📡🚀 KVProtocol.add_to_server: Registering KV service
+2025-03-12T19:26:44.806-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] plugin.protocol.service 🐍🏗️  | 🔌 ProtocolService => Registered GRPCStdio, GRPCBroker, GRPCController with gRPC server.
+2025-03-12T19:26:44.806-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Protocol service registered successfully.
+2025-03-12T19:26:44.806-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ mTLS enabled – configuring TLS credentials.
+2025-03-12T19:26:44.806-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Generating server credentials using Certificate API.
+2025-03-12T19:26:44.806-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜🔑🚀 Certificate.__init__: Generating new keypair as requested.
+2025-03-12T19:26:44.806-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜🔑🚀 Certificate.__init__: Keypair generation config: {'common_name': 'localhost', 'organization': 'HashiCorp', 'alt_names': ['localhost'], 'key_type': <KeyType.ECDSA: 'ecdsa'>, 'key_size': None, 'curve': <CurveType.SECP384R1: 'secp384r1'>, 'not_valid_before': datetime.datetime(2025, 3, 13, 2, 26, 44, 806238, tzinfo=datetime.timezone.utc), 'not_valid_after': datetime.datetime(2026, 3, 13, 2, 26, 44, 806380, tzinfo=datetime.timezone.utc)}
+2025-03-12T19:26:44.806-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝🚀 CertificateBase.create: Starting certificate base creation.
+2025-03-12T19:26:44.806-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜⏳✅ CertificateBase.create: Current UTC time: 2025-03-13 02:26:44.806425+00:00
+2025-03-12T19:26:44.806-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜⏳✅ CertificateBase.create: Validity period: before=2025-03-13 02:26:44.806238+00:00, after=2026-03-13 02:26:44.806380+00:00
+2025-03-12T19:26:44.806-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜🔑🚀 CertificateBase.create: Generating ECDSA key (curve: secp384r1).
+2025-03-12T19:26:44.807-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝🚀 _create_name: Creating name with common_name='localhost', organization='HashiCorp'.
+2025-03-12T19:26:44.807-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝🚀 _create_name: Creating name with common_name='localhost', organization='HashiCorp'.
+2025-03-12T19:26:44.807-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝✅ CertificateBase.create: Created subject and issuer: <Name(CN=localhost,O=HashiCorp)>
+2025-03-12T19:26:44.807-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜🔑✅ CertificateBase.create: Generated serial number: 76258120513115020904746763623182801718
+2025-03-12T19:26:44.807-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝✅ CertificateBase.create: Certificate base creation completed successfully.
+2025-03-12T19:26:44.807-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝🚀 _create_x509_certificate: Starting certificate creation process.
+2025-03-12T19:26:44.807-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜⏳✅ _create_x509_certificate: Validity period: not_valid_before=2025-03-13 02:26:14.807924+00:00, not_valid_after=2055-03-13 12:26:44.807924+00:00
+2025-03-12T19:26:44.807-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝🚀 _create_x509_certificate: Certificate builder initialized with base data.
+2025-03-12T19:26:44.808-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝✅ _create_x509_certificate: Added Subject Alternative Names
+2025-03-12T19:26:44.808-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝✅ _create_x509_certificate: Added Basic Constraints extension.
+2025-03-12T19:26:44.808-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝✅ _create_x509_certificate: Added Key Usage extension.
+2025-03-12T19:26:44.808-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝✅ _create_x509_certificate: Added Extended Key Usage extension.
+2025-03-12T19:26:44.808-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 🔑📂🚀 display_key_details: Starting extraction of private key details.
+2025-03-12T19:26:44.808-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  |   🔑 Key Type: ECDSA
+2025-03-12T19:26:44.808-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  |   📏 Key Size: secp384r1
+2025-03-12T19:26:44.808-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  |   🔑 PEM Encoded Private Key:
+2025-03-12T19:26:44.808-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: -----BEGIN PRIVATE KEY-----
+2025-03-12T19:26:44.808-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: MIG2AgEAMBAGByqGSM49AgEGBSuBBAAiBIGeMIGbAgEBBDBluINj+tDg6Ny172EQ
+2025-03-12T19:26:44.808-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: X4fbHolw99ZWBmVwVMRmOS0iu0yBH5do8eFgmyVPjo59/xShZANiAARhzSVQL65t
+2025-03-12T19:26:44.808-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: sYJwkjdlKZQIyoaIDnWow95UZeyqE4OXmRMJjRbUzl0eAulCnZdyOVTJqaItkmn6
+2025-03-12T19:26:44.808-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: xyN3YWUk+HdtMAUzHC0h3m4mG3NhzOM/pGx8FKiK2/7JvUzInouMxS8=
+2025-03-12T19:26:44.808-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: -----END PRIVATE KEY-----
+2025-03-12T19:26:44.808-0700 [DEBUG] 🌐 kv-client.py_kv_server.py
+2025-03-12T19:26:44.808-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 🔑📂🚀 display_key_details: Private key details extracted successfully.
+2025-03-12T19:26:44.810-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝✅ _create_x509_certificate: Certificate signed successfully.
+2025-03-12T19:26:44.810-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜🔑✅ Certificate.__init__: Generated certificate and key converted to PEM successfully.
+2025-03-12T19:26:44.810-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] ugin.crypto.certificate 🐍🏗️  | 📜📝✅ Certificate.__init__: Trust chain initialized.
+2025-03-12T19:26:44.810-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Server certificate loaded/generated successfully.
+2025-03-12T19:26:44.810-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Server TLS credentials created with mTLS enabled.
+2025-03-12T19:26:44.810-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Using Unix socket transport; listening on socket...
+2025-03-12T19:26:44.810-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🕹✅ Created directory: /tmp
+2025-03-12T19:26:44.810-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🕹🚀 Creating Unix socket at /tmp/pyvider-58734.sock
+2025-03-12T19:26:44.810-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🕹✅ Set world-writable permissions (0770) on /tmp/pyvider-58734.sock
+2025-03-12T19:26:44.810-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🕹✅ Server listening on /tmp/pyvider-58734.sock
+2025-03-12T19:26:44.812-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Bound to Unix socket at unix:/tmp/pyvider-58734.sock.
+2025-03-12T19:26:44.812-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ gRPC server started successfully.
+2025-03-12T19:26:44.812-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Verified Unix socket file permissions at /tmp/pyvider-58734.sock.
+2025-03-12T19:26:44.812-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🤝📝🔄 Building handshake response...
+2025-03-12T19:26:44.812-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🤝📝✅ Using existing Unix transport endpoint: /tmp/pyvider-58734.sock
+2025-03-12T19:26:44.812-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🤝📝🔄 Base response structure: ['1', '1', 'unix', '/tmp/pyvider-58734.sock', 'grpc', '']
+2025-03-12T19:26:44.812-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🤝🔐🔄 Processing server certificate...
+2025-03-12T19:26:44.812-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🤝🔐✅ Certificate data added to response.
+2025-03-12T19:26:44.812-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]     rpcplugin.handshake 🐍🏗️  | 🤝📝✅ Handshake response successfully built: 1|1|unix|/tmp/pyvider-58734.sock|grpc|MIIB5TCCAWugAwIBAgIQOV7Hn6elFo1ye07Zw56bNjAKBggqhkjOPQQDBDAoMRIwEAYDVQQDDAlsb2NhbGhvc3QxEjAQBgNVBAoMCUhhc2hpQ29ycDAgFw0yNTAzMTMwMjI2MTRaGA8yMDU1MDMxMzEyMjY0NFowKDESMBAGA1UEAwwJbG9jYWxob3N0MRIwEAYDVQQKDAlIYXNoaUNvcnAwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAARhzSVQL65tsYJwkjdlKZQIyoaIDnWow95UZeyqE4OXmRMJjRbUzl0eAulCnZdyOVTJqaItkmn6xyN3YWUk+HdtMAUzHC0h3m4mG3NhzOM/pGx8FKiK2/7JvUzInouMxS+jWDBWMBQGA1UdEQQNMAuCCWxvY2FsaG9zdDAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwICrDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwCgYIKoZIzj0EAwQDaAAwZQIxAK5VfKGBvlF/JVeFubT9q8rNdZ6YkOI5cxXDYZnG6hvV8weAHkher8qVovq++JF1ugIwOwUocIVcYkhIyadbU+h9Y46QmfXscpV+hb1nDL8bflnDldF+w7EJjQOaQSJqBiS2
+2025-03-12T19:26:44.812-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🤝📝 Handshake response built: 1|1|unix|/tmp/pyvider-58734.sock|grpc|MIIB5TCCAWugAwIBAgIQOV7Hn6elFo1ye07Zw56bNjAKBggqhkjOPQQDBDAoMRIwEAYDVQQDDAlsb2NhbGhvc3QxEjAQBgNVBAoMCUhhc2hpQ29ycDAgFw0yNTAzMTMwMjI2MTRaGA8yMDU1MDMxMzEyMjY0NFowKDESMBAGA1UEAwwJbG9jYWxob3N0MRIwEAYDVQQKDAlIYXNoaUNvcnAwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAARhzSVQL65tsYJwkjdlKZQIyoaIDnWow95UZeyqE4OXmRMJjRbUzl0eAulCnZdyOVTJqaItkmn6xyN3YWUk+HdtMAUzHC0h3m4mG3NhzOM/pGx8FKiK2/7JvUzInouMxS+jWDBWMBQGA1UdEQQNMAuCCWxvY2FsaG9zdDAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwICrDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwCgYIKoZIzj0EAwQDaAAwZQIxAK5VfKGBvlF/JVeFubT9q8rNdZ6YkOI5cxXDYZnG6hvV8weAHkher8qVovq++JF1ugIwOwUocIVcYkhIyadbU+h9Y46QmfXscpV+hb1nDL8bflnDldF+w7EJjQOaQSJqBiS2
+2025-03-12T19:26:44.812-0700 [DEBUG] 🌐 kv-client: using plugin: version=1
+2025-03-12T19:26:44.812-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🤝📝✅ Handshake response sent to stdout
+2025-03-12T19:26:44.812-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Server running; awaiting shutdown signal...
+2025-03-12T19:26:44.814-0700 [DEBUG] 🌐 kv-client: 🤝✅ RPC connection established
+2025-03-12T19:26:44.814-0700 [DEBUG] 🌐 kv-client: 🔌 starting RPC client
+2025-03-12T19:26:44.814-0700 [DEBUG] 🌐 kv-client: 🔌✅ RPC client started successfully: network=unix address=/tmp/pyvider-58734.sock protocol=grpc version=1 secure=true
+2025-03-12T19:26:44.814-0700 [DEBUG] 🌐 kv-client: 🔌 attempting to dispense plugin
+2025-03-12T19:26:44.814-0700 [DEBUG] 🔌🌐 kv-grpc-client: 🌐🔄 initializing new gRPC client connection: connection_state=READY target=unused
+2025-03-12T19:26:44.814-0700 [DEBUG] 🔌🌐 kv-grpc-client: 🌐✨ GRPCClient wrapper initialized successfully: client_implementation="*shared.GRPCClient"
+2025-03-12T19:26:44.814-0700 [DEBUG] 🌐 kv-client: 🔌✅ plugin dispensed successfully
+2025-03-12T19:26:44.814-0700 [DEBUG] 🌐 kv-client: ✅ type assertion successful
+2025-03-12T19:26:44.814-0700 [DEBUG] 🌐 kv-client: 📥 executing get operation: key=hello
+2025-03-12T19:26:44.814-0700 [DEBUG] 🔌🌐 kv-grpc-client: 🌐📥 initiating Get request: key=hello
+2025-03-12T19:26:44.814-0700 [TRACE] 🌐 kv-client.stdio: waiting for stdio data
+2025-03-12T19:26:44.815-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] plugin.protocol.service 🐍🏗️  | 🔌📡🚀 GRPCBrokerService.StartStream => Began broker sub-stream (bidirectional).
+2025-03-12T19:26:44.815-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] plugin.protocol.service 🐍🏗️  | 🔌📝✅ GRPCStdioService.StreamStdio => started. Streaming lines to host.
+2025-03-12T19:26:44.815-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44     [INFO]                __main__ 🐍🏗️  | 🛎️📡🚀 Get: Received request for key: 'hello'
+2025-03-12T19:26:44.815-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]                __main__ 🐍🏗️  | 🛎️📡📝 Get: Looking for file '/tmp/kv-data-hello' for key 'hello'.
+2025-03-12T19:26:44.816-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]                __main__ 🐍🏗️  | 🛎️📡✅ Get: Successfully retrieved key 'hello' with value (summary): world
+2025-03-12T19:26:44.816-0700 [DEBUG] 🔌🌐 kv-grpc-client: 🌐✅ Get request completed successfully: key=hello value_size=5
+2025-03-12T19:26:44.816-0700 [DEBUG] 🌐 kv-client: 📥✅ get operation successful: key=hello value_length=5
+world
+2025-03-12T19:26:44.816-0700 [INFO]  🌐 kv-client: 🏁 operation completed successfully
+2025-03-12T19:26:44.816-0700 [DEBUG] 🌐 kv-client: 🧹 cleaning up plugin client
+2025-03-12T19:26:44.816-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] plugin.protocol.service 🐍🏗️  | 🔌🛑✅ GRPCControllerService.Shutdown => plugin shutdown requested.
+2025-03-12T19:26:44.816-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] plugin.protocol.service 🐍🏗️  | 🔌📝⚠️ GRPCStdioService => marking service as shutdown
+2025-03-12T19:26:44.816-0700 [DEBUG] 🌐 kv-client.stdio: received EOF, stopping recv loop: err="rpc error: code = Canceled desc = grpc: the client connection is closing"
+2025-03-12T19:26:44.817-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] plugin.protocol.service 🐍🏗️  | 🔌📡🛑 GRPCBrokerService.StartStream => stream closed by client.
+2025-03-12T19:26:44.817-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] plugin.protocol.service 🐍🏗️  | 🔌📝🛑 StreamStdio cancelled
+2025-03-12T19:26:44.817-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] plugin.protocol.service 🐍🏗️  | 🔌📝🛑 GRPCStdioService.StreamStdio => stopping, either shutdown or context done.
+2025-03-12T19:26:44.918-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44     [INFO]        rpcplugin.server 🏗️ 🫴  | 🛎️ Shutdown signal received; initiating graceful shutdown...
+2025-03-12T19:26:44.918-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Serving future resolved on shutdown request.
+2025-03-12T19:26:44.918-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Stopping server...
+2025-03-12T19:26:44.918-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Exiting serve(); initiating shutdown...
+2025-03-12T19:26:44.918-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Stopping server...
+2025-03-12T19:26:44.918-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ gRPC server stopped successfully.
+2025-03-12T19:26:44.918-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🔒🚀 Closing Unix socket transport at /tmp/pyvider-58734.sock
+2025-03-12T19:26:44.918-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🔒✅ Closed server
+2025-03-12T19:26:44.918-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ gRPC server stopped successfully.
+2025-03-12T19:26:44.918-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🔒🚀 Closing Unix socket transport at /tmp/pyvider-58734.sock
+2025-03-12T19:26:44.918-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG] pcplugin.transport.unix 🐍🏗️  | 📞🔒✅ Already closing, skipping duplicate close
+2025-03-12T19:26:44.918-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Transport closed successfully.
+2025-03-12T19:26:44.918-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Server shutdown complete.
+2025-03-12T19:26:44.918-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Shutdown complete; exiting process.
+2025-03-12T19:26:44.918-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44     [INFO]                __main__ 🐍🏗️  | 🛎️🚀✅ Server: Server started successfully
+2025-03-12T19:26:44.919-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Stopping server...
+2025-03-12T19:26:44.919-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44    [DEBUG]        rpcplugin.server 🏗️ 🫴  | 🛎️ Server shutdown complete.
+2025-03-12T19:26:44.919-0700 [DEBUG] 🌐 kv-client.py_kv_server.py: 2025-03-12 19:26:44     [INFO]                __main__ 🐍🏗️  | 🛎️🛑 Server: Server stopped
+2025-03-12T19:26:45.144-0700 [INFO]  🌐 kv-client: plugin process exited: plugin=/Users/tim/code/pyvider-rpcplugin/examples/kvprobo/py_rpc/py_kv_server.py id=58734
+2025-03-12T19:26:45.144-0700 [DEBUG] 🌐 kv-client: plugin exited
